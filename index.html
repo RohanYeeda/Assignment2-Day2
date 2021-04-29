@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link href="style.css" rel="stylesheet">
+        <title>SIMPLE CALCULATOR</title>
+    </head>
+    <body style="background-image: url(https://www.freecodecamp.org/news/content/images/2020/04/w-qjCHPZbeXCQ-unsplash.jpg); text-align: center;">
+        <h1>CALCULATOR</h1>
+        <hr>
+        
+        <form name="calculator" method="POST">
+         <h2> <input type="text" name="ans" value="" style="text-align: center;font-size: 3vw;color: black; width: 24.9vw;height: 8vw;" id="result">
+            <input type="button" value="C" onclick="document.calculator.ans.value=''"  style="background-color:rgb(138, 140, 245); font-size: 3vw;">
+          <br>
+          <input type="button" value="1" onclick=" val('1')" id="a">
+          <input type="button" value="2" onclick="val('2')" id="a">
+          <input type="button" value="3" onclick="val('3')" id="a">
+          <input type="button" value="+" onclick="val('+')" id="a" style="background-color: rgb(166, 245, 245);">
+          <br>
+          <input type="button" value="4" onclick="val('4')" id="a">
+          <input type="button" value="5" onclick="val('5')" id="a">
+          <input type="button" value="6" onclick="val('6')" id="a">
+          <input type="button" value="-" onclick="val('-')" id="a" style="background-color: rgb(166, 245, 245);">
+          <br>
+          <input type="button" value="7" onclick="val('7')" id="a">
+          <input type="button" value="8" onclick="val('8')" id="a">
+          <input type="button" value="9" onclick="val('9')" id="a">
+          <input type="button" value="x" onclick="val('*')" id="a" style="background-color:rgb(166, 245, 245);">
+          <br>
+          <input type="button" value="."onclick="val('.')" id="a">
+          <input type="button" value="0" onclick="val('0')" id="a">
+          <input type="button" value="=" onclick="cal()" id="a">
+          <input type="button" value="/" onclick="val('/')" id="a" style="background-color: rgb(166, 245, 245);">
+
+
+
+
+         </h2> 
+
+        </form>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

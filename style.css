@@ -1,0 +1,23 @@
+input[type="button"]
+{
+background-color:rgb(205, 214, 255);
+color: black;
+border: solid black 2px;
+width: 8vw;
+height: 8vw;
+}
+
+input[type="text"]
+{
+background-color:white;
+border: solid black 2px;
+width: 5vw;
+height: 5vw;
+
+}
+#a
+{
+    font-size: 3vw;
+    font-style: italic;
+    
+}
