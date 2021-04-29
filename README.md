@@ -1,1 +1,1 @@
-# Assignment2-Day2
+SIMPLE CALCULATOR using HTML,CSS,JS
